@@ -88,6 +88,32 @@ body {
   content: "12";
 }
 
+.one {
+  position: absolute;
+  width: 100%;
+  left: 71.5%;
+  top: 6.5%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.one::after {
+  content: "1";
+}
+
+.two {
+  position: absolute;
+  width: 100%;
+  left: 88.5%;
+  top: 21.5%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.two::after {
+  content: "2";
+}
+
 .three {
   position: absolute;
   transform: translateY(-50%);
@@ -123,12 +149,9 @@ body {
   content: "9";
 }
 
-.twelve::after,
-.three::after,
-.six::after,
-.nine::after {
-  font-weight: 700;
+*::after {
   font-size: 18px;
+  font-weight: 700;
 }
 
 #meridiem-text-container {
