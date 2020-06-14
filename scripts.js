@@ -7,11 +7,11 @@ const meridiemTextContainer = document.querySelector(
 );
 
 // Obtain Date and Time
-const currentDate = new Date(Date.now()).toLocaleTimeString();
+const currentDate = new Date().toLocaleTimeString();
 const getCurrentMeridiem = () => currentDate.slice(-2);
-const getCurrentSecond = () => new Date().getSeconds(currentDate);
-const getCurrentMinute = () => new Date().getMinutes(currentDate);
-const getCurrentHour = () => new Date().getHours(currentDate);
+const getCurrentSecond = () => new Date().getSeconds();
+const getCurrentMinute = () => new Date().getMinutes();
+const getCurrentHour = () => new Date().getHours();
 
 const rotateSecondHand = () => {
   secondHand.style.transform = `rotate(${getCurrentSecond() * 6}deg)`;
