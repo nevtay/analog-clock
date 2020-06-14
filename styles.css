@@ -127,9 +127,9 @@ body {
 
 .four {
   position: absolute;
-  transform: translateY(-50%);
   right: 9.5%;
-  top: 72.5%;
+  top: 72%;
+  transform: translateY(-36.25%);
 }
 
 .four::after {
@@ -138,9 +138,9 @@ body {
 
 .five {
   position: absolute;
-  transform: translateY(-50%);
-  right: 26%;
+  right: 24%;
   top: 88%;
+  transform: translate(-52%, -44%);
 }
 
 .five::after {
@@ -150,7 +150,7 @@ body {
 .six {
   position: absolute;
   width: 100%;
-  top: 90%;
+  top: 92%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -160,8 +160,34 @@ body {
   content: "6";
 }
 
+.seven {
+  position: absolute;
+  width: 100%;
+  top: 88%;
+  left: 29%;
+  transform: translate(-52%, -42.25%);
+  text-align: center;
+}
+
+.seven::after {
+  content: "7";
+}
+
+.eight {
+  position: absolute;
+  width: 100%;
+  top: 72.5%;
+  left: 0;
+  transform: translate(-39%, -36%);
+  text-align: center;
+}
+
+.eight::after {
+  content: "8";
+}
+
 .nine {
-  position: relative;
+  position: absolute;
   transform: translateY(-50%);
   left: 2.5%;
   top: 50%;
@@ -170,6 +196,40 @@ body {
 .nine::after {
   content: "9";
 }
+
+.ten {
+  position: absolute;
+  left: 9%;
+  top: 22%;
+  transform: translateX(11%);
+}
+
+.ten::after {
+  content: "10";
+}
+
+.eleven {
+  position: absolute;
+  left: 27.5%;
+  top: 7%;
+  transform: translateX(-50%);
+}
+
+.eleven::after {
+  content: "11";
+}
+
+/* .one {
+  position: absolute;
+  width: 100%;
+  left: 72%;
+  top: 7%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.one::after {
+  conten */
 
 *::after {
   font-size: 18px;
