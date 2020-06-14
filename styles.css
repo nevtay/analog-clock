@@ -138,8 +138,8 @@ body {
 
 .five {
   position: absolute;
-  right: 24%;
-  top: 88%;
+  right: 25%;
+  top: 89%;
   transform: translate(-52%, -44%);
 }
 
@@ -163,8 +163,8 @@ body {
 .seven {
   position: absolute;
   width: 100%;
-  top: 88%;
-  left: 29%;
+  top: 89%;
+  left: 30%;
   transform: translate(-52%, -42.25%);
   text-align: center;
 }
@@ -218,18 +218,6 @@ body {
 .eleven::after {
   content: "11";
 }
-
-/* .one {
-  position: absolute;
-  width: 100%;
-  left: 72%;
-  top: 7%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-.one::after {
-  conten */
 
 *::after {
   font-size: 18px;
